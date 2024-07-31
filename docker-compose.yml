@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  reactPort3:
+  reactport3:
     build:
       context: .
       dockerfile: Dockerfile 
@@ -8,4 +8,4 @@ services:
       - '3000:3000'
     stdin_open: true
     tty: true
-    image: telyson/reactPort:0.0.1
+    image: telyson/reactport:0.0.1
